@@ -8,6 +8,6 @@ D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.cs
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.csproj.CoreCompileInputs.cache
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.exe
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.pdb
-D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Form1.resources
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\bin\Debug\Guna.UI2.dll
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.csproj.CopyComplete
+D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Customers.resources

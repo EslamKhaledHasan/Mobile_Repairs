@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mobile_Repairs
 {
-    public partial class Form1 : Form
+    public partial class Repairs : Form
     {
-        public Form1()
+        public Repairs()
         {
             InitializeComponent();
         }
