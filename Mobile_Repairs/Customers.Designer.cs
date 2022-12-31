@@ -35,7 +35,7 @@
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.CustPhoneTb = new System.Windows.Forms.TextBox();
             this.CustNameTb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -118,13 +118,13 @@
             this.panel4.Size = new System.Drawing.Size(1073, 10);
             this.panel4.TabIndex = 36;
             // 
-            // textBox3
+            // CustPhoneTb
             // 
-            this.textBox3.Location = new System.Drawing.Point(165, 227);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(245, 32);
-            this.textBox3.TabIndex = 35;
+            this.CustPhoneTb.Location = new System.Drawing.Point(165, 227);
+            this.CustPhoneTb.Multiline = true;
+            this.CustPhoneTb.Name = "CustPhoneTb";
+            this.CustPhoneTb.Size = new System.Drawing.Size(245, 32);
+            this.CustPhoneTb.TabIndex = 35;
             // 
             // CustNameTb
             // 
@@ -251,7 +251,7 @@
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.CustPhoneTb);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.CustNameTb);
             this.Controls.Add(this.label4);
@@ -278,7 +278,7 @@
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox CustPhoneTb;
         private System.Windows.Forms.TextBox CustNameTb;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
