@@ -11,3 +11,5 @@ D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.pd
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\bin\Debug\Guna.UI2.dll
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.csproj.CopyComplete
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Customers.resources
+D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Repairs.resources
+D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Spares.resources
