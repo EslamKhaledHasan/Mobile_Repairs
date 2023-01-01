@@ -12,7 +12,7 @@ namespace Mobile_Repairs
     {
         private SqlConnection Con;
         private SqlCommand Cmd;
-        private DataTable dt;
+        private DataTable dt = new DataTable();
         private SqlDataAdapter sda;
         private string ConStr;
         public Functions()

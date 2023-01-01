@@ -83,7 +83,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.CustomersList.DefaultCellStyle = dataGridViewCellStyle3;
             this.CustomersList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.CustomersList.Location = new System.Drawing.Point(507, 103);
+            this.CustomersList.Location = new System.Drawing.Point(531, 103);
             this.CustomersList.Name = "CustomersList";
             this.CustomersList.RowHeadersVisible = false;
             this.CustomersList.RowHeadersWidth = 51;
