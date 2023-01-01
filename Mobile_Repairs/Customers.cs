@@ -161,6 +161,10 @@ namespace Mobile_Repairs
             }
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
