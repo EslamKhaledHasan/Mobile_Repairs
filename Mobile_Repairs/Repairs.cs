@@ -18,11 +18,18 @@ namespace Mobile_Repairs
             InitializeComponent();
             Con = new Functions();
             ShowRepairs();
-           
+            GetCustomer();
             GetSpare();
         }
 
-       
+        private void GetCustomer()
+        {
+            string Query = "Select * from CustomerTb1";
+            CustCb.ValueMember = Con.GetData(Query).Columns["CustCode"].ToString();
+            CustCb.DataSource = Con.GetData(Query);
+
+
+        }
 
         private void GetCost()
         {
@@ -32,6 +39,7 @@ namespace Mobile_Repairs
             {
                 SpareCostTb.Text = dr["SpCost"].ToString();
             }
+          //  MessageBox.Show("hello");
         }
         private void ShowRepairs()
         {
@@ -140,6 +148,17 @@ namespace Mobile_Repairs
 
         private void CustCb_SelectedIndexChanged(object sender, EventArgs e)
         {
+            GetCost();
+        }
+
+        private void SpareCostTb_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SparesList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Key = Convert.ToInt32(SparesList.SelectedRows[0].Cells[0].Value.ToString());
 
         }
     }
