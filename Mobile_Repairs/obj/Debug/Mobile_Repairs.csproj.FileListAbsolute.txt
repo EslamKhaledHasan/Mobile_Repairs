@@ -13,4 +13,3 @@ D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.cs
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Customers.resources
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Repairs.resources
 D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs.Spares.resources
-D:\tasks\windows tasks\Mobile_Repairs\Mobile_Repairs\obj\Debug\Mobile_Repairs_M_S.Customers.resources
