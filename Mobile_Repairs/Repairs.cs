@@ -161,6 +161,11 @@ namespace Mobile_Repairs
             Key = Convert.ToInt32(SparesList.SelectedRows[0].Cells[0].Value.ToString());
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+        }
     }
 
 

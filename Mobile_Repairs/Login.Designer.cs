@@ -33,17 +33,19 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.UNameTb = new System.Windows.Forms.TextBox();
-            this.PasswoedTb = new System.Windows.Forms.TextBox();
+            this.PasswordTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LoginBtn = new Guna.UI2.WinForms.Guna2Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -56,6 +58,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox3
             // 
@@ -85,14 +88,16 @@
             this.UNameTb.Name = "UNameTb";
             this.UNameTb.Size = new System.Drawing.Size(245, 33);
             this.UNameTb.TabIndex = 49;
+            this.UNameTb.TextChanged += new System.EventHandler(this.UNameTb_TextChanged);
             // 
-            // PasswoedTb
+            // PasswordTb
             // 
-            this.PasswoedTb.Location = new System.Drawing.Point(354, 463);
-            this.PasswoedTb.Multiline = true;
-            this.PasswoedTb.Name = "PasswoedTb";
-            this.PasswoedTb.Size = new System.Drawing.Size(245, 33);
-            this.PasswoedTb.TabIndex = 50;
+            this.PasswordTb.Location = new System.Drawing.Point(354, 463);
+            this.PasswordTb.Multiline = true;
+            this.PasswordTb.Name = "PasswordTb";
+            this.PasswordTb.Size = new System.Drawing.Size(245, 33);
+            this.PasswordTb.TabIndex = 50;
+            this.PasswordTb.TextChanged += new System.EventHandler(this.PasswordTb_TextChanged);
             // 
             // label2
             // 
@@ -103,6 +108,7 @@
             this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 51;
             this.label2.Text = "User Name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -113,6 +119,7 @@
             this.label3.Size = new System.Drawing.Size(108, 27);
             this.label3.TabIndex = 52;
             this.label3.Text = "Password";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // LoginBtn
             // 
@@ -128,6 +135,7 @@
             this.LoginBtn.Size = new System.Drawing.Size(99, 32);
             this.LoginBtn.TabIndex = 53;
             this.LoginBtn.Text = "Login";
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // panel4
             // 
@@ -156,18 +164,31 @@
             this.pictureBox2.Size = new System.Drawing.Size(66, 68);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(775, 23);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(77, 68);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 56;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 671);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.PasswoedTb);
+            this.Controls.Add(this.PasswordTb);
             this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox3);
@@ -180,6 +201,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,12 +212,13 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox UNameTb;
-        private System.Windows.Forms.TextBox PasswoedTb;
+        private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button LoginBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
