@@ -55,11 +55,11 @@ namespace Mobile_Repairs
             {
                 try
                 {
-                    string CName = CustNameTb.Text;
-                    string CPhone = CustPhoneTb.Text;
-                    string CAdd = CustAddTb.Text;
+                    string CustName = CustNameTb.Text;
+                    string CustPhone = CustPhoneTb.Text;
+                    string CustAdd = CustAddTb.Text;
                     string Query = "insert into CustomerTb1 values('{0}','{1}','{2}')";
-                    Query = string.Format(Query, CName, CPhone, CAdd);
+                    Query = string.Format(Query, CustName, CustPhone, CustAdd);
                     Con.setData(Query);
                     MessageBox.Show("Customer Added!!!");
                     ShowCustomers();
@@ -85,11 +85,11 @@ namespace Mobile_Repairs
             {
                 try
                 {
-                    string CName = CustNameTb.Text;
-                    string CPhone = CustPhoneTb.Text;
-                    string CAdd = CustAddTb.Text;
+                    string CustName = CustNameTb.Text;
+                    string CustPhone = CustPhoneTb.Text;
+                    string CustAdd = CustAddTb.Text;
                     string Query = "Update CustomerTb1 set CustName = '{0}' ,CustPhone = '{1}',CustAdd = '{2}' where CustCode = {3}";
-                    Query = string.Format(Query, CName, CPhone, CAdd, Key);
+                    Query = string.Format(Query, CustName, CustPhone, CustAdd, Key);
                     Con.setData(Query);
                     MessageBox.Show("Customer Edited!!!");
                     ShowCustomers();
