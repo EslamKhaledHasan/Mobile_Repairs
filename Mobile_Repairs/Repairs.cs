@@ -18,19 +18,11 @@ namespace Mobile_Repairs
             InitializeComponent();
             Con = new Functions();
             ShowRepairs();
-            GetCustomer();
+           
             GetSpare();
         }
 
-        private void GetCustomer()
-        {
-            string Query = "Select * from CustomerTb1";
-            CustCb.DisplayMember = Con.GetData(Query).Columns["CustName"].ToString();
-            CustCb.ValueMember = Con.GetData(Query).Columns["CustCode"].ToString();
-            CustCb.DataSource = Con.GetData(Query);
-
-
-        }
+       
 
         private void GetCost()
         {
